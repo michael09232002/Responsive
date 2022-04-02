@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+@font-face {
+    font-family: 'Nebula';
+    src: url(Fonts/Nebula-Regular.otf);
+}
+@font-face {
+    font-family: 'Montmed';
+    src: url(Fonts/Montserrat-Medium.otf);
+}
+@font-face {
+    font-family: 'Montlight';
+    src: url(Fonts/Montserrat-Light.otf);
+}
+
+.rectangle{
+    width: 200px;
+    height: 100px;
+    background: black;
+    position: relative;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url(Images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.Logo{
+    width: 80px;
+    cursor: pointer;
+    margin: 10px 0;
+    margin-left: 3%;
+    padding-right: 1%;
+}
+.menu-icon{
+    width: 60px;
+    cursor: pointer;
+    filter: invert(100%);
+    margin-right: 3%;
+}
+.navbar{
+    background: black;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montmed';
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    color: white;
+}
+.column1{
+    position: relative;
+    text-align: center;
+}
+.column1 h2{
+    font-size: 70px;
+    font-family: 'Montmed';
+    line-height: 90%;
+    font-weight: normal;
+}
+.column1 h2 span{
+    font-size: 40px;
+    font-family: 'Montlight';
+}
+.column1 h3{
+    font-size: 100px;
+    font-family: 'Nebula';
+    line-height: 90%;
+    font-weight: normal;
+}
+.column1 p{
+    margin-top: 2%;
+    font-family: 'Montlight';
+}
+.rectangle{
+    width: 100%;
+    height: 100px;
+    background: black;
+}
+.navbar h2{
+    color: white;
+    font-weight: bold;
+    font-family: 'Montmed';
+}
+.navbar h2 span{
+    font-weight: normal;
+}
+@media only screen and (max-width:700px){
+    nav ul{
+        position: absolute;
+    }
+    nav ul li{
+        display: block;
+        margin-top: -10px;
+        margin-left: 180%;
+    }
+    nav ul li a{
+        font-size: 10px;  
+    }
+    .menu-icon{
+        display: block;
+        width: 40px;
+    }
+    .Logo{
+        width: 50px;
+    }
+    .navbar h2{
+        font-size: 15px;
+    }
+    .navbar h2 span{
+        font-weight: normal;
+    }
+    .column1 p{
+        margin-top: 2%;
+        font-size: 15px;
+        margin-left: -40%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .column1 h3{
+        font-size: 55px;
+        margin-left: -60%;
+        padding-left: 43%;
+        padding-right: 50%;
+    }
+    .column1 h2{
+        font-size: 50px;
+        margin-left: -60%;
+        padding-left: 43%;
+        padding-right: 50%;
+    }
+    .column1 h2 span{
+        font-size: 20px;
+        margin-left: 50%;
+    }
+}
