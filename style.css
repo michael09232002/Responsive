@@ -5,15 +5,15 @@
 }
 @font-face {
     font-family: 'Nebula';
-    src: url(Fonts/Nebula-Regular.otf);
+    src: url(Font/Nebula-Regular.otf);
 }
 @font-face {
     font-family: 'Montmed';
-    src: url(Fonts/Montserrat-Medium.otf);
+    src: url(Font/Montserrat-Medium.otf);
 }
 @font-face {
     font-family: 'Montlight';
-    src: url(Fonts/Montserrat-Light.otf);
+    src: url(Font/Montserrat-Light.otf);
 }
 
 .rectangle{
